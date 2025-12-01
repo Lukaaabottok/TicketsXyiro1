@@ -196,4 +196,4 @@ client.on("messageCreate", async (msg) => {
 // ─────────────────────────────────────────────
 // LOGIN
 // ─────────────────────────────────────────────
-client.login(process.env.TOKEN);
+client.login(process.env.DISCORD_TOKEN);
