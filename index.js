@@ -20,7 +20,7 @@ const express = require("express");
 // ─────────────────────────────────────────────
 const app = express();
 app.get("/", (req, res) => res.send("Bot is online"));
-app.listen(4000);
+app.listen(3000);
 
 // ─────────────────────────────────────────────
 // DISCORD CLIENT
@@ -58,7 +58,7 @@ client.on("messageCreate", async (msg) => {
             "Choose the type of ticket you want to create:\n\n" +
             "🛠 **Support** – Normal help\n" +
             "🤝 **Middleman** – Trading help\n" +
-            "📢 **Partnership** – Advertising / partnerships"
+            "📢 **Partnership** – Advertising / Partnerships"
         )
         .setColor("#2b2d31");
 
